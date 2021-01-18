@@ -1,10 +1,10 @@
 # Reverse engineering the [edelkrone SliderOne v2](https://edelkrone.com/products/sliderone-v2)
 
 ### Table of contents
-* [Why do this?](why-do-this)
-* [Scope](scope)
-* [Current Findings](current-findings)
-* [Next Steps?](next-steps)
+* [Why do this?](Why-Do-This?)
+* [Scope](Scope)
+* [Current Findings](Current-Findings)
+* [Next Steps?](Next-Steps)
 
 ## Why do this?
 The edelkrone "SliderOne v2" is a consumer-grade camera slider that uses BlueTooth. For many applications the 
