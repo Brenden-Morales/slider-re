@@ -5,7 +5,6 @@ The edelkrone "SliderOne v2" is a consumer-grade camera slider that uses BlueToo
 app from the developer is sufficient. However for macro photography and [focus stacking](https://en.wikipedia.org/wiki/Focus_stacking)
 the app falls short. The hope is to reverse engineer the bluetooth protocol used by the app & slider in order to 
 enable simple 3rd party applications.
-![edelkrone](./images/edelkrone_app.png)
 ## Scope
 The only functionality currently planned to replicate is
 1. pairing with the device
@@ -31,7 +30,6 @@ Event 46
 log 1: source:Pixel 5	dest:SldrOne	opcode:BT_ATT_OP_WRITE_REQ	value:04:09:0c:b0:00:c9 -> decimal: 4, 9, 12, 176, 0, 201
 log 2: source:Pixel 5	dest:SldrOne	opcode:BT_ATT_OP_WRITE_REQ	value:04:09:13:63:00:83 -> decimal: 4, 9, 19, 99, 0, 131
 log 3: source:Pixel 5	dest:SldrOne	opcode:BT_ATT_OP_WRITE_REQ	value:04:09:16:91:00:b4 -> decimal: 4, 9, 22, 145, 0, 180
-                                                                    value:04:09:29:93:00:c9 -> decimal: 4, 9, 41, 147, 0, 201
 ```
 This appears to correspond to a:
 ```
@@ -49,11 +47,44 @@ decimal: 4, 9, 41, 147, 0, 201 -> 4 + 9 + 41 + 147 = 201
 ```
 is it time related?
 ```
-Arrival Time: Jan 17, 2021 13:14:57.448195000 CST, epoch time: 1610910897.448195000 seconds
+Arrival Time: Jan 17, 2021 13:14:57.448195000 CST, epoch time: 1610910897.448195000 seconds 
 Arrival Time: Jan 17, 2021 13:43:32.493186000 CST, epoch time: 1610912612.493186000 seconds
 Arrival Time: Jan 17, 2021 13:57:07.009962000 CST, epoch time: 1610913427.009962000 seconds
 Arrival Time: Jan 18, 2021 00:24:20.916678000 CST, epoch time: 1610951060.916678000 seconds, 
 ```
+In decompiled code found an interesting reference to time `java.lang.System.currentTimeMillis()`
+
+**HOWEVER** plugging in milliseconds and seconds and various other shit into this doewsn't seem to do anything
+```
+int currentTimeMillis = ((int) (System.currentTimeMillis() / ((long) 1000))) % 32768;
+wantedBundleConfiguration = new EdelConfigurationBundle(currentTimeMillis, getSingleSetupFromDevice(edelScanRecord2), null);
+
+public final class EdelConfigurationBundle {
+    private final int groupId; 
+    private final EdelSingleBundle[] peerDevicesArray;
+    private final EdlSetup_t setup;
+    ...
+    public EdelConfigurationBundle(int i, EdlSetup_t edlSetup_t, EdelSingleBundle[] edelSingleBundleArr) {
+        Intrinsics.checkNotNullParameter(edlSetup_t, "setup");
+        this.groupId = i;
+        this.setup = edlSetup_t;
+        this.peerDevicesArray = edelSingleBundleArr;
+    }
+    ...
+    public int hashCode() {
+        int i = this.groupId * 31; //******** 27020 * 31 =837620 ********
+        EdlSetup_t edlSetup_t = this.setup;
+        int i2 = 0;
+        int hashCode = (i + (edlSetup_t != null ? edlSetup_t.hashCode() : 0)) * 31;
+        EdelSingleBundle[] edelSingleBundleArr = this.peerDevicesArray;
+        if (edelSingleBundleArr != null) {
+            i2 = Arrays.hashCode(edelSingleBundleArr);
+        }
+        return hashCode + i2;
+    }
+}
+```
+**This could be a total red herring**
 
 ## Next Steps?
 Figure out that first command
