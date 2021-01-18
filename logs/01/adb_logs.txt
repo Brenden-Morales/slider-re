@@ -1,0 +1,1852 @@
+--------- beginning of system
+--------- beginning of main
+01-17 13:14:24.305 18637 18637 D BLUETOOTH: NOT CONNECTED
+01-17 13:14:26.304 18637 18637 D BLUETOOTH: NOT CONNECTED
+01-17 13:14:27.558 18637 18637 D BLUETOOTH: NOT CONNECTED
+01-17 13:14:34.277 18637 18637 E BleService: An exception occurred while refreshing device
+01-17 13:14:35.494 18637 18637 D BLUETOOTH: NOT CONNECTED
+01-17 13:14:56.582 18637 18655 D BleService: Connected
+01-17 13:14:56.590 18637 18637 D BLUETOOTH: Connected to device
+01-17 13:14:57.383 18637 18654 D BleService: On Services Discovered
+01-17 13:14:57.393 18637 18637 D BleService: setCharacteristicNotification
+01-17 13:14:57.394 18637 18637 D BleService: Command success type: REGISTER_NOTIFICATION
+01-17 13:14:57.394 18637 18637 D BleService: Data:
+01-17 13:14:57.394 18637 18637 D BleService: setCharacteristicNotification
+01-17 13:14:57.408 18637 18654 D BleService: On Descriptor Write
+01-17 13:14:57.408 18637 18654 D BleService: Command success type: REGISTER_NOTIFICATION
+01-17 13:14:57.408 18637 18654 D BleService: Data:
+01-17 13:14:57.422 18637 18654 D BleService: On Descriptor Write
+01-17 13:14:57.434 18637 18637 D BLUETOOTH: Notifications has been set up
+01-17 13:14:57.435 18637 18637 D BLUETOOTH: Process Command: IO_CTRL
+01-17 13:14:57.448 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.448 18637 18637 D BleService: Data: 4, 9, 12, -80, 0, -55,
+01-17 13:14:57.467 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:57.482 18637 18654 D BleService: cevap: Data: 0, 12, -80, -1, -1, -1, -1, 2, 1, -1, 0, 26, 0, 0, 0, 0, 0, 0, 5, -44,
+01-17 13:14:57.490 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.492 18637 18637 D BLUETOOTH: Process Command: VERSION
+01-17 13:14:57.501 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.501 18637 18637 D BleService: Data: 2, 14, 0, 16,
+01-17 13:14:57.527 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:57.528 18637 18654 D BleService: cevap: Data: 1, 0, 0, 61, 0, 35, 0, 67, 82, 83, 80, 9, 32, 50, 52, 82, 0, 0, 2, 122,
+01-17 13:14:57.534 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.536 18637 18637 D BLUETOOTH: Process Command: CONFIGURATION
+01-17 13:14:57.546 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.546 18637 18637 D BleService: Data: 3, -55, 4, 0, -48,
+01-17 13:14:57.572 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:57.573 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:57.578 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.587 18637 18637 D BLUETOOTH: Process Command: SETTINGS
+01-17 13:14:57.705 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.705 18637 18637 D BleService: Data: 3, 24, 0, 0, 27,
+01-17 13:14:57.738 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:57.752 18637 18654 D BleService: cevap: Data: 6, 0, 0, 0, 0, -6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+01-17 13:14:57.755 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.756 18637 18637 D BLUETOOTH: Process Command: SETTINGS
+01-17 13:14:57.758 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.758 18637 18637 D BleService: Data: 6, 32, 0, 0, 0, -6, 1, 32,
+01-17 13:14:57.784 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.798 18637 18655 D BleService: cevap: Data: 6, 0, 0, 0, 0, -6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0,
+01-17 13:14:57.800 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.802 18637 18637 D BLUETOOTH: Process Command: GET_ID
+01-17 13:14:57.805 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.805 18637 18637 D BleService: Data: 2, 28, 0, 30,
+01-17 13:14:57.828 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.828 18637 18655 D BleService: cevap: Data: 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7,
+01-17 13:14:57.833 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.834 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:57.848 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.848 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:57.872 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.874 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:57.875 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.877 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:57.883 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.883 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:57.903 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.903 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:57.906 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.909 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:57.915 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.916 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:57.947 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.948 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:57.950 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.952 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:57.960 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:57.960 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:57.992 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:57.994 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:57.997 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:57.999 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.005 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.005 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.037 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.053 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.055 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.057 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.073 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.073 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.097 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.099 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.101 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.103 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.117 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.117 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.142 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.143 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.145 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.147 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.160 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.160 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.187 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.188 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.191 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.193 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.206 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.206 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.232 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.234 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.237 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.239 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.252 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.252 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.277 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.278 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.280 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.282 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.296 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.296 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.323 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.338 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.340 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.341 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.349 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.349 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.367 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.369 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.371 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.373 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.383 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.383 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.413 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.413 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.416 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.417 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.428 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.428 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.458 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.458 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.461 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.462 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.474 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.474 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.502 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.518 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.520 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.522 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.529 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.529 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.564 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.565 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.569 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.571 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.583 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.583 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.608 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.623 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.625 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.627 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.639 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.639 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.667 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.668 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.669 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.671 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.681 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.681 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.712 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.712 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.715 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.717 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.728 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.728 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.758 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:58.758 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.761 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.763 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.773 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.773 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.803 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.803 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.806 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.808 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.817 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.817 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.849 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.849 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.853 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.856 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.862 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.862 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.894 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.909 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.913 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.916 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.929 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.929 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.953 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.954 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:58.958 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:58.960 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:58.973 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:58.973 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:58.998 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:58.999 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.003 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.006 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.017 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.017 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.043 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:59.044 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.047 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.049 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.062 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.062 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.087 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:59.087 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.089 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.091 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.105 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.105 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.132 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:59.147 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.150 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.152 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.159 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.159 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.178 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:59.192 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.194 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.196 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.204 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.204 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.222 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:14:59.222 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.224 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.226 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:14:59.235 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.235 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:14:59.267 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.267 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.268 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.269 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.279 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.279 18637 18637 D BleService: Data: 6, 13, 0, 0, 112, 127, 1, 2,
+01-17 13:14:59.297 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.297 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.298 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.299 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.301 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.301 18637 18637 D BleService: Data: 6, 13, 0, 0, 112, 127, 1, 2,
+01-17 13:14:59.327 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.327 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.328 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.329 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.335 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.335 18637 18637 D BleService: Data: 6, 13, 0, 0, 112, 127, 1, 2,
+01-17 13:14:59.357 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.357 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.358 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.359 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.368 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.368 18637 18637 D BleService: Data: 6, 13, 0, 0, 112, 127, 1, 2,
+01-17 13:14:59.387 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.389 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:14:59.390 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.392 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.401 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.401 18637 18637 D BleService: Data: 6, 13, 30, -97, 112, 127, 1, -65,
+01-17 13:14:59.432 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.432 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 26,
+01-17 13:14:59.434 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.435 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.446 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.446 18637 18637 D BleService: Data: 6, 13, 16, -36, 112, 127, 1, -18,
+01-17 13:14:59.478 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.478 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -26, -1, -1, 0, 0, 4, 0, 0, 0, 4, 41,
+01-17 13:14:59.479 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.480 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.491 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.491 18637 18637 D BleService: Data: 6, 13, 15, -1, 112, 127, 2, 16,
+01-17 13:14:59.522 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.523 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -26, -1, -1, 0, 0, 4, 0, 0, 0, 4, 41,
+01-17 13:14:59.524 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.526 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.535 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.535 18637 18637 D BleService: Data: 6, 13, 14, 101, 112, 127, 1, 117,
+01-17 13:14:59.567 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.567 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -27, -1, -1, 0, 0, 4, 0, 0, 0, 4, 40,
+01-17 13:14:59.569 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.570 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.579 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.579 18637 18637 D BleService: Data: 6, 13, 12, 71, 112, 127, 1, 85,
+01-17 13:14:59.597 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.598 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -28, -1, -1, 0, 0, 4, 0, 0, 0, 4, 39,
+01-17 13:14:59.599 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.600 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.602 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.602 18637 18637 D BleService: Data: 6, 13, 11, 109, 112, 127, 1, 122,
+01-17 13:14:59.627 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.628 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -29, -1, -1, 0, 0, 4, 0, 0, 0, 4, 38,
+01-17 13:14:59.629 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.630 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.635 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.635 18637 18637 D BleService: Data: 6, 13, 11, 109, 112, 127, 1, 122,
+01-17 13:14:59.657 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.657 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -30, -1, -1, 0, 0, 4, 0, 0, 0, 4, 37,
+01-17 13:14:59.659 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.661 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.668 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.668 18637 18637 D BleService: Data: 6, 13, 11, 109, 112, 127, 1, 122,
+01-17 13:14:59.687 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.687 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -32, -1, -1, 0, 0, 4, 0, 0, 0, 4, 35,
+01-17 13:14:59.689 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.690 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.701 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.701 18637 18637 D BleService: Data: 6, 13, 11, 109, 112, 127, 1, 122,
+01-17 13:14:59.733 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.733 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -33, -1, -1, 0, 0, 4, 0, 0, 0, 4, 34,
+01-17 13:14:59.734 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.735 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.746 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.746 18637 18637 D BleService: Data: 6, 13, 11, 109, 112, 127, 1, 122,
+01-17 13:14:59.777 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.778 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -35, -1, -1, 0, 0, 4, 0, 0, 0, 4, 32,
+01-17 13:14:59.779 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.781 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.790 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.790 18637 18637 D BleService: Data: 6, 13, 10, 4, 112, 127, 1, 16,
+01-17 13:14:59.822 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.825 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -36, -1, -1, 0, 0, 4, 0, 0, 0, 4, 31,
+01-17 13:14:59.826 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.827 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.836 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.836 18637 18637 D BleService: Data: 6, 13, 9, 106, 112, 127, 1, 117,
+01-17 13:14:59.867 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.867 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -38, -1, -1, 0, 0, 4, 0, 0, 0, 4, 29,
+01-17 13:14:59.868 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.870 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.880 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.880 18637 18637 D BleService: Data: 6, 13, 7, 33, 112, 127, 1, 42,
+01-17 13:14:59.897 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.898 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -40, -1, -1, 0, 0, 4, 0, 0, 0, 4, 27,
+01-17 13:14:59.899 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.900 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.902 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.902 18637 18637 D BleService: Data: 6, 13, 6, 43, 112, 127, 1, 51,
+01-17 13:14:59.927 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.928 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -41, -1, -1, 0, 0, 4, 0, 0, 0, 4, 26,
+01-17 13:14:59.928 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.930 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.935 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.935 18637 18637 D BleService: Data: 6, 13, 5, 65, 112, 127, 1, 72,
+01-17 13:14:59.957 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.957 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -43, -1, -1, 0, 0, 4, 0, 0, 0, 4, 24,
+01-17 13:14:59.959 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.960 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:14:59.968 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:14:59.968 18637 18637 D BleService: Data: 6, 13, 5, 7, 112, 127, 1, 14,
+01-17 13:14:59.987 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:14:59.987 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -44, -1, -1, 0, 0, 4, 0, 0, 0, 4, 23,
+01-17 13:14:59.989 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:14:59.990 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.001 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.001 18637 18637 D BleService: Data: 6, 13, 4, -110, 112, 127, 1, -104,
+01-17 13:15:00.033 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.047 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -46, -1, -1, 0, 0, 4, 0, 0, 0, 4, 21,
+01-17 13:15:00.048 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.049 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.057 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.057 18637 18637 D BleService: Data: 6, 13, 2, -66, 112, 127, 1, -62,
+01-17 13:15:00.078 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.078 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -49, -1, -1, 0, 0, 4, 0, 0, 0, 4, 18,
+01-17 13:15:00.079 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.082 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.090 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.090 18637 18637 D BleService: Data: 6, 13, 0, -33, 112, 127, 1, -31,
+01-17 13:15:00.122 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.123 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -58, -1, -1, 0, 0, 4, 0, 0, 0, 4, 9,
+01-17 13:15:00.124 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.125 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.135 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.135 18637 18637 D BleService: Data: 6, 13, -1, -58, 112, 127, 2, -57,
+01-17 13:15:00.167 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.168 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -65, -1, -1, 0, 0, 4, 0, 0, 0, 4, 2,
+01-17 13:15:00.169 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.170 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.179 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.179 18637 18637 D BleService: Data: 6, 13, -2, 44, 112, 127, 2, 44,
+01-17 13:15:00.197 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.198 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -69, -1, -1, 0, 0, 4, 0, 0, 0, 3, -2,
+01-17 13:15:00.199 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.200 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.203 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.203 18637 18637 D BleService: Data: 6, 13, -4, -66, 112, 127, 2, -68,
+01-17 13:15:00.228 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.228 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -73, -1, -1, 0, 0, 4, 0, 0, 0, 3, -6,
+01-17 13:15:00.229 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.230 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.234 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.234 18637 18637 D BleService: Data: 6, 13, -6, -21, 112, 127, 2, -25,
+01-17 13:15:00.257 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.258 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -76, -1, -1, 0, 0, 4, 0, 0, 0, 3, -9,
+01-17 13:15:00.258 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.259 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.268 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.268 18637 18637 D BleService: Data: 6, 13, -8, 45, 112, 127, 2, 39,
+01-17 13:15:00.287 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.291 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -81, -1, -1, 0, 0, 4, 0, 0, 0, 3, -14,
+01-17 13:15:00.292 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.293 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.301 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.301 18637 18637 D BleService: Data: 6, 13, -10, 89, 112, 127, 2, 81,
+01-17 13:15:00.332 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.333 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -87, -1, -1, 0, 0, 4, 0, 0, 0, 3, -20,
+01-17 13:15:00.334 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.336 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.346 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.346 18637 18637 D BleService: Data: 6, 13, -12, 20, 112, 127, 2, 10,
+01-17 13:15:00.377 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.378 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -94, -1, -1, 0, 0, 4, 0, 0, 0, 3, -27,
+01-17 13:15:00.379 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.381 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.390 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.390 18637 18637 D BleService: Data: 6, 13, -17, -57, 112, 127, 2, -72,
+01-17 13:15:00.422 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.423 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -98, -1, -1, 0, 0, 4, 0, 0, 0, 3, -31,
+01-17 13:15:00.424 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.425 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.435 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.435 18637 18637 D BleService: Data: 6, 13, -18, 33, 112, 127, 2, 17,
+01-17 13:15:00.467 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:00.483 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -108, -1, -1, 0, 0, 4, 0, 0, 0, 3, -41,
+01-17 13:15:00.484 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.485 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.490 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.490 18637 18637 D BleService: Data: 6, 13, -21, 65, 112, 127, 2, 46,
+01-17 13:15:00.513 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:00.513 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, 104, -1, -1, 0, 0, 4, 0, 0, 0, 3, -85,
+01-17 13:15:00.514 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.516 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.523 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.523 18637 18637 D BleService: Data: 6, 13, -22, -6, 112, 127, 2, -26,
+01-17 13:15:00.542 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:00.542 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, 54, -1, -1, 0, 0, 4, 0, 0, 0, 3, 121,
+01-17 13:15:00.543 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.546 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.557 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.557 18637 18637 D BleService: Data: 6, 13, -22, -6, 112, 127, 2, -26,
+01-17 13:15:00.587 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.588 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -60, -40, -1, -1, 0, 0, 4, 0, 0, 0, 4, 26,
+01-17 13:15:00.589 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.590 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.601 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.601 18637 18637 D BleService: Data: 6, 13, -22, -6, 112, 127, 2, -26,
+01-17 13:15:00.632 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.632 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -60, 91, -1, -1, 0, 0, 4, 0, 0, 0, 3, -99,
+01-17 13:15:00.633 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.634 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.646 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.646 18637 18637 D BleService: Data: 6, 13, -22, -6, 112, 127, 2, -26,
+01-17 13:15:00.677 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.678 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -61, -60, -1, -1, 0, 0, 4, 0, 0, 0, 4, 5,
+01-17 13:15:00.679 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.681 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.690 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.690 18637 18637 D BleService: Data: 6, 13, -22, -6, 112, 127, 2, -26,
+01-17 13:15:00.722 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.722 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -61, 21, -1, -1, 0, 0, 4, 0, 0, 0, 3, 86,
+01-17 13:15:00.723 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.725 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.735 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.735 18637 18637 D BleService: Data: 6, 13, -22, -123, 112, 127, 2, 113,
+01-17 13:15:00.767 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.768 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -62, 81, -1, -1, 0, 0, 4, 0, 0, 0, 3, -111,
+01-17 13:15:00.769 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.770 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.779 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.779 18637 18637 D BleService: Data: 6, 13, -22, -123, 112, 127, 2, 113,
+01-17 13:15:00.797 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.797 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -63, -58, -1, -1, 0, 0, 4, 0, 0, 0, 4, 5,
+01-17 13:15:00.799 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.801 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.812 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.812 18637 18637 D BleService: Data: 6, 13, -22, -123, 112, 127, 2, 113,
+01-17 13:15:00.842 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.858 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -64, -25, -1, -1, 0, 0, 4, 0, 0, 0, 4, 37,
+01-17 13:15:00.860 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.861 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.869 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.869 18637 18637 D BleService: Data: 6, 13, -22, -123, 112, 127, 2, 113,
+01-17 13:15:00.889 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.902 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -65, -11, -1, -1, 0, 0, 4, 0, 0, 0, 4, 50,
+01-17 13:15:00.903 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.904 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.912 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.912 18637 18637 D BleService: Data: 6, 13, -25, 78, 112, 127, 2, 55,
+01-17 13:15:00.932 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.933 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -66, -9, -1, -1, 0, 0, 4, 0, 0, 0, 4, 51,
+01-17 13:15:00.934 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.935 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.945 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.945 18637 18637 D BleService: Data: 6, 13, -28, 20, 112, 127, 1, -6,
+01-17 13:15:00.977 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:00.979 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -67, -28, -1, -1, 0, 0, 4, 0, 0, 0, 4, 31,
+01-17 13:15:00.980 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:00.981 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:00.989 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:00.989 18637 18637 D BleService: Data: 6, 13, -31, 85, 112, 127, 2, 56,
+01-17 13:15:01.007 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.007 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -67, 45, -1, -1, 0, 0, 4, 0, 0, 0, 3, 104,
+01-17 13:15:01.008 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.009 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.011 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.012 18637 18637 D BleService: Data: 6, 13, -35, -80, 112, 127, 2, -113,
+01-17 13:15:01.037 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.038 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -68, 95, -1, -1, 0, 0, 4, 0, 0, 0, 3, -103,
+01-17 13:15:01.038 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.039 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.045 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.045 18637 18637 D BleService: Data: 6, 13, -38, 124, 112, 127, 2, 88,
+01-17 13:15:01.067 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.068 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -69, -127, -1, -1, 0, 0, 4, 0, 0, 0, 3, -70,
+01-17 13:15:01.069 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.071 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.078 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.078 18637 18637 D BleService: Data: 6, 13, -40, 49, 112, 127, 2, 11,
+01-17 13:15:01.097 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.097 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -70, -99, -1, -1, 0, 0, 4, 0, 0, 0, 3, -43,
+01-17 13:15:01.100 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.101 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.111 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.111 18637 18637 D BleService: Data: 6, 13, -43, 116, 112, 127, 2, 75,
+01-17 13:15:01.142 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.142 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -71, 48, -1, -1, 0, 0, 4, 0, 0, 0, 3, 103,
+01-17 13:15:01.144 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.145 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.156 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.156 18637 18637 D BleService: Data: 6, 13, -45, 41, 112, 127, 1, -2,
+01-17 13:15:01.187 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.188 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -73, -114, -1, -1, 0, 0, 4, 0, 0, 0, 3, -61,
+01-17 13:15:01.189 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.192 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.201 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.201 18637 18637 D BleService: Data: 6, 13, -49, -55, 112, 127, 2, -102,
+01-17 13:15:01.234 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.235 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -75, -43, -1, -1, 0, 0, 4, 0, 0, 0, 4, 8,
+01-17 13:15:01.236 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.238 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.245 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.245 18637 18637 D BleService: Data: 6, 13, -54, 109, 112, 127, 2, 57,
+01-17 13:15:01.279 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.282 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -77, -26, -1, -1, 0, 0, 4, 0, 0, 0, 4, 23,
+01-17 13:15:01.285 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.286 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+--------- beginning of crash
+01-17 13:15:01.289 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.289 18637 18637 D BleService: Data: 6, 13, -55, 99, 112, 127, 2, 46,
+01-17 13:15:01.307 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.308 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -78, -113, -1, -1, 0, 0, 4, 0, 0, 0, 3, -65,
+01-17 13:15:01.309 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.309 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.313 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.313 18637 18637 D BleService: Data: 6, 13, -55, 40, 112, 127, 1, -13,
+01-17 13:15:01.337 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.338 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -79, 35, -1, -1, 0, 0, 4, 0, 0, 0, 3, 82,
+01-17 13:15:01.339 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.340 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.345 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.345 18637 18637 D BleService: Data: 6, 13, -56, 62, 112, 127, 2, 8,
+01-17 13:15:01.368 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.369 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -81, -98, -1, -1, 0, 0, 4, 0, 0, 0, 3, -53,
+01-17 13:15:01.369 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.370 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.378 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.378 18637 18637 D BleService: Data: 6, 13, -57, 84, 112, 127, 2, 29,
+01-17 13:15:01.398 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.398 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -82, 10, -1, -1, 0, 0, 4, 0, 0, 0, 3, 54,
+01-17 13:15:01.400 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.401 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.412 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.412 18637 18637 D BleService: Data: 6, 13, -58, -43, 112, 127, 2, -99,
+01-17 13:15:01.442 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.443 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -85, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -75,
+01-17 13:15:01.444 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.447 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.456 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.456 18637 18637 D BleService: Data: 6, 13, -60, -3, 112, 127, 2, -61,
+01-17 13:15:01.487 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.488 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -88, -22, -1, -1, 0, 0, 4, 0, 0, 0, 4, 16,
+01-17 13:15:01.489 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.492 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.501 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.501 18637 18637 D BleService: Data: 6, 13, -64, 112, 112, 127, 2, 50,
+01-17 13:15:01.532 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.535 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -90, 38, -1, -1, 0, 0, 4, 0, 0, 0, 3, 74,
+01-17 13:15:01.536 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.537 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.545 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.545 18637 18637 D BleService: Data: 6, 13, -66, -104, 112, 127, 2, 88,
+01-17 13:15:01.577 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.577 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -93, 53, -1, -1, 0, 0, 4, 0, 0, 0, 3, 86,
+01-17 13:15:01.578 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.580 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.589 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.589 18637 18637 D BleService: Data: 6, 13, -70, 124, 112, 127, 2, 56,
+01-17 13:15:01.607 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.608 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -95, 45, -1, -1, 0, 0, 4, 0, 0, 0, 3, 76,
+01-17 13:15:01.609 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.610 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.611 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.612 18637 18637 D BleService: Data: 6, 13, -72, -17, 112, 127, 2, -87,
+01-17 13:15:01.637 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.638 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -97, 20, -1, -1, 0, 0, 4, 0, 0, 0, 3, 49,
+01-17 13:15:01.639 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.640 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.645 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.645 18637 18637 D BleService: Data: 6, 13, -73, -112, 112, 127, 2, 73,
+01-17 13:15:01.667 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.668 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -100, -35, -1, -1, 0, 0, 4, 0, 0, 0, 3, -9,
+01-17 13:15:01.669 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.670 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.678 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.678 18637 18637 D BleService: Data: 6, 13, -74, 97, 112, 127, 2, 25,
+01-17 13:15:01.697 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.698 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -102, -106, -1, -1, 0, 0, 4, 0, 0, 0, 3, -82,
+01-17 13:15:01.701 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.704 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.711 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.711 18637 18637 D BleService: Data: 6, 13, -74, 97, 112, 127, 2, 25,
+01-17 13:15:01.742 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.758 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -105, 4, -1, -1, 0, 0, 4, 0, 0, 0, 3, 25,
+01-17 13:15:01.759 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.761 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.768 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.768 18637 18637 D BleService: Data: 6, 13, -76, -105, 112, 127, 2, 77,
+01-17 13:15:01.802 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.803 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -111, -12, -1, -1, 0, 0, 4, 0, 0, 0, 4, 3,
+01-17 13:15:01.804 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.805 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.812 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.812 18637 18637 D BleService: Data: 6, 13, -76, 34, 112, 127, 1, -40,
+01-17 13:15:01.833 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.833 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -113, 112, -1, -1, 0, 0, 4, 0, 0, 0, 3, 125,
+01-17 13:15:01.835 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.836 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.845 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.845 18637 18637 D BleService: Data: 6, 13, -77, -83, 112, 127, 2, 98,
+01-17 13:15:01.878 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.878 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -117, 87, -1, -1, 0, 0, 4, 0, 0, 0, 3, 96,
+01-17 13:15:01.879 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.881 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.890 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.890 18637 18637 D BleService: Data: 6, 13, -77, 56, 112, 127, 1, -19,
+01-17 13:15:01.922 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:01.922 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -121, 83, -1, -1, 0, 0, 4, 0, 0, 0, 3, 88,
+01-17 13:15:01.924 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.925 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.934 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.935 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:01.967 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:01.983 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -126, -1, -1, -1, 0, 0, 4, 0, 0, 0, 3, -1,
+01-17 13:15:01.985 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:01.986 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:01.990 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:01.990 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.012 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.012 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 126, -94, -1, -1, 0, 0, 4, 0, 0, 0, 3, -98,
+01-17 13:15:02.013 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.015 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.023 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.023 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.043 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.043 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 123, -84, -1, -1, 0, 0, 4, 0, 0, 0, 3, -91,
+01-17 13:15:02.044 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.046 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.056 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.056 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.087 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.088 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 119, 38, -1, -1, 0, 0, 4, 0, 0, 0, 3, 27,
+01-17 13:15:02.089 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.091 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.101 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.101 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.132 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.133 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 114, -114, -1, -1, 0, 0, 4, 0, 0, 0, 3, 126,
+01-17 13:15:02.134 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.135 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.139 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.139 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.162 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.162 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 111, 114, -1, -1, 0, 0, 4, 0, 0, 0, 3, 95,
+01-17 13:15:02.164 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.165 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.173 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.173 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.192 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.193 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 108, 81, -1, -1, 0, 0, 4, 0, 0, 0, 3, 59,
+01-17 13:15:02.194 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.196 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.206 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.206 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.237 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.238 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 103, -110, -1, -1, 0, 0, 4, 0, 0, 0, 3, 119,
+01-17 13:15:02.238 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.240 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.256 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.256 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.282 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.282 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 98, -58, -1, -1, 0, 0, 4, 0, 0, 0, 3, -90,
+01-17 13:15:02.284 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.285 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.289 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.290 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.313 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.328 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 95, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, 105,
+01-17 13:15:02.329 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.332 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.341 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.342 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.372 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.373 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 88, -1, -1, -1, 0, 0, 4, 0, 0, 0, 3, -43,
+01-17 13:15:02.375 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.376 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.392 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.392 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.417 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.418 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 84, 11, -1, -1, 0, 0, 4, 0, 0, 0, 2, -35,
+01-17 13:15:02.419 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.421 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.423 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.423 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.448 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.448 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 80, -71, -1, -1, 0, 0, 4, 0, 0, 0, 3, -121,
+01-17 13:15:02.449 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.451 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.457 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.457 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.478 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.478 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 77, 68, -1, -1, 0, 0, 4, 0, 0, 0, 3, 15,
+01-17 13:15:02.479 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.482 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.490 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.490 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.522 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.522 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 72, 93, -1, -1, 0, 0, 4, 0, 0, 0, 3, 35,
+01-17 13:15:02.524 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.526 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.540 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.540 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.567 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.568 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 67, 53, -1, -1, 0, 0, 4, 0, 0, 0, 2, -10,
+01-17 13:15:02.569 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.571 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.573 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.574 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.598 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.612 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 63, -46, -1, -1, 0, 0, 4, 0, 0, 0, 3, -113,
+01-17 13:15:02.614 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.616 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.623 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.623 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.642 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.643 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 58, -71, -1, -1, 0, 0, 4, 0, 0, 0, 3, 113,
+01-17 13:15:02.645 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.646 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.656 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.656 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.688 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.688 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 53, -100, -1, -1, 0, 0, 4, 0, 0, 0, 3, 79,
+01-17 13:15:02.690 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.692 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.708 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.708 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.733 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.733 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 48, 122, -1, -1, 0, 0, 4, 0, 0, 0, 3, 40,
+01-17 13:15:02.735 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.737 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.739 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.739 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.762 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.763 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 45, 16, -1, -1, 0, 0, 4, 0, 0, 0, 2, -69,
+01-17 13:15:02.764 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.766 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.773 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.773 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.792 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.793 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 41, -97, -1, -1, 0, 0, 4, 0, 0, 0, 3, 70,
+01-17 13:15:02.795 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.797 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.807 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.807 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.838 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.838 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 36, 119, -1, -1, 0, 0, 4, 0, 0, 0, 3, 25,
+01-17 13:15:02.840 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.841 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.859 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.859 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.882 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:02.899 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 31, 75, -1, -1, 0, 0, 4, 0, 0, 0, 2, -24,
+01-17 13:15:02.900 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.902 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.907 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.907 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.928 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.928 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 26, 25, -1, -1, 0, 0, 4, 0, 0, 0, 2, -79,
+01-17 13:15:02.929 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.931 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:02.941 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:02.941 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:02.973 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:02.988 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 20, -28, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:02.990 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:02.992 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.007 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.007 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.032 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.033 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 13, -21, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:03.035 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.037 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.039 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.040 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.062 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.063 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 10, 116, -1, -1, 0, 0, 4, 0, 0, 0, 2, -4,
+01-17 13:15:03.064 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.066 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.074 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.074 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.093 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.108 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 6, -39, -1, -1, 0, 0, 4, 0, 0, 0, 3, 93,
+01-17 13:15:03.111 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.112 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.125 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.125 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.152 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.153 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 0, 1, -1, -1, 0, 0, 4, 0, 0, 0, 2, 127,
+01-17 13:15:03.154 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.156 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.175 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.175 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.198 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.198 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -6, -91, -1, -1, 0, 0, 4, 0, 0, 0, 4, 29,
+01-17 13:15:03.200 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.201 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.206 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.206 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.228 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.228 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -9, 40, -1, -1, 0, 0, 4, 0, 0, 0, 3, -99,
+01-17 13:15:03.229 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.231 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.241 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.241 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.272 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.273 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -15, -25, -1, -1, 0, 0, 4, 0, 0, 0, 4, 86,
+01-17 13:15:03.275 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.277 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.290 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.290 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.318 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.318 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -20, -93, -1, -1, 0, 0, 4, 0, 0, 0, 4, 13,
+01-17 13:15:03.320 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.322 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.341 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.341 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.363 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.363 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -25, 101, -1, -1, 0, 0, 4, 0, 0, 0, 3, -54,
+01-17 13:15:03.365 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.367 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.373 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.373 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.393 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.393 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -29, -24, -1, -1, 0, 0, 4, 0, 0, 0, 4, 73,
+01-17 13:15:03.396 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.398 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.409 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.409 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.438 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -34, -90, -1, -1, 0, 0, 4, 0, 0, 0, 4, 2,
+01-17 13:15:03.441 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.442 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.444 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.460 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.460 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.483 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.484 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -39, 94, -1, -1, 0, 0, 4, 0, 0, 0, 3, -75,
+01-17 13:15:03.487 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.489 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.509 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.509 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.543 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.543 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -46, 87, -1, -1, 0, 0, 4, 0, 0, 0, 3, -89,
+01-17 13:15:03.547 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.549 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.560 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.560 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.588 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.589 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -51, 15, -1, -1, 0, 0, 4, 0, 0, 0, 3, 90,
+01-17 13:15:03.591 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.594 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.610 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.610 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.633 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.633 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -57, -53, -1, -1, 0, 0, 4, 0, 0, 0, 4, 16,
+01-17 13:15:03.639 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.641 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.661 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.661 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.693 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.693 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -64, -90, -1, -1, 0, 0, 4, 0, 0, 0, 3, -28,
+01-17 13:15:03.696 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.698 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.709 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.709 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.739 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.753 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -69, 92, -1, -1, 0, 0, 4, 0, 0, 0, 3, -107,
+01-17 13:15:03.756 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.758 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.776 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.776 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.798 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.798 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -76, 79, -1, -1, 0, 0, 4, 0, 0, 0, 3, -127,
+01-17 13:15:03.801 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.803 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.808 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.808 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.827 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.828 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -80, -53, -1, -1, 0, 0, 4, 0, 0, 0, 3, -7,
+01-17 13:15:03.831 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.833 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.842 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.842 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.873 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:03.874 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -85, -125, -1, -1, 0, 0, 4, 0, 0, 0, 3, -84,
+01-17 13:15:03.878 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.880 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.893 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.893 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.919 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.919 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -90, 59, -1, -1, 0, 0, 4, 0, 0, 0, 3, 95,
+01-17 13:15:03.923 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.926 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.943 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.943 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:03.963 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:03.964 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -96, -12, -1, -1, 0, 0, 4, 0, 0, 0, 4, 18,
+01-17 13:15:03.967 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:03.969 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:03.977 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:03.977 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.009 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.009 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -101, -81, -1, -1, 0, 0, 4, 0, 0, 0, 3, -56,
+01-17 13:15:04.013 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.016 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.026 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.026 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.053 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.054 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -106, 96, -1, -1, 0, 0, 4, 0, 0, 0, 3, 116,
+01-17 13:15:04.057 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.059 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.075 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.075 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.098 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.098 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -111, 19, -1, -1, 0, 0, 4, 0, 0, 0, 3, 34,
+01-17 13:15:04.102 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.105 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.125 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.125 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.158 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.158 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -118, 1, -1, -1, 0, 0, 4, 0, 0, 0, 3, 9,
+01-17 13:15:04.162 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.164 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.177 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.177 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.203 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.203 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -124, -69, -1, -1, 0, 0, 4, 0, 0, 0, 3, -67,
+01-17 13:15:04.207 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.209 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.227 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.227 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.248 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.248 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 127, 115, -1, -1, 0, 0, 4, 0, 0, 0, 3, 112,
+01-17 13:15:04.253 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.255 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.276 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.277 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.309 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.323 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 120, 64, -1, -1, 0, 0, 4, 0, 0, 0, 3, 54,
+01-17 13:15:04.327 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.329 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.344 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.344 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.368 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.368 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 113, 51, -1, -1, 0, 0, 4, 0, 0, 0, 3, 34,
+01-17 13:15:04.371 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.374 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.393 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.393 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.413 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.414 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 107, -24, -1, -1, 0, 0, 4, 0, 0, 0, 3, -47,
+01-17 13:15:04.418 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.420 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.426 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.426 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.458 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.459 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 102, -95, -1, -1, 0, 0, 4, 0, 0, 0, 3, -123,
+01-17 13:15:04.463 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.465 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.476 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.476 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.503 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.504 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 97, 87, -1, -1, 0, 0, 4, 0, 0, 0, 3, 54,
+01-17 13:15:04.507 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.509 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.526 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.526 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.548 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.549 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 92, 9, -1, -1, 0, 0, 4, 0, 0, 0, 2, -29,
+01-17 13:15:04.553 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.555 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.576 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.576 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.608 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.609 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 84, -12, -1, -1, 0, 0, 4, 0, 0, 0, 3, -58,
+01-17 13:15:04.612 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.615 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.626 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.626 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.653 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.654 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 79, -87, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:04.657 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.660 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.676 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.676 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.698 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.699 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 74, 91, -1, -1, 0, 0, 4, 0, 0, 0, 3, 35,
+01-17 13:15:04.702 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.704 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.726 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.726 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.759 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.759 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 67, 47, -1, -1, 0, 0, 4, 0, 0, 0, 2, -16,
+01-17 13:15:04.763 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.766 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.775 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.775 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.803 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:04.804 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 61, -29, -1, -1, 0, 0, 4, 0, 0, 0, 3, -98,
+01-17 13:15:04.808 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.810 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.826 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.826 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.849 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.850 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 56, -106, -1, -1, 0, 0, 4, 0, 0, 0, 3, 76,
+01-17 13:15:04.854 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.857 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.875 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.875 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.908 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.909 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 49, 127, -1, -1, 0, 0, 4, 0, 0, 0, 3, 46,
+01-17 13:15:04.913 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.915 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.925 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.925 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.953 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.953 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 44, 51, -1, -1, 0, 0, 4, 0, 0, 0, 2, -35,
+01-17 13:15:04.956 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:04.959 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:04.975 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:04.975 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:04.998 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:04.999 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 38, -23, -1, -1, 0, 0, 4, 0, 0, 0, 3, -115,
+01-17 13:15:05.002 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.004 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.026 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.026 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.058 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.059 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 31, -36, -1, -1, 0, 0, 4, 0, 0, 0, 3, 121,
+01-17 13:15:05.063 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.066 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.075 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.075 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.103 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.104 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 26, -113, -1, -1, 0, 0, 4, 0, 0, 0, 3, 39,
+01-17 13:15:05.107 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.109 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.125 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.125 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.148 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.149 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 21, 63, -1, -1, 0, 0, 4, 0, 0, 0, 2, -46,
+01-17 13:15:05.153 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.156 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.177 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.177 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.208 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.209 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 14, 40, -1, -1, 0, 0, 4, 0, 0, 0, 2, -76,
+01-17 13:15:05.213 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.215 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.225 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.225 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.253 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.254 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 8, -40, -1, -1, 0, 0, 4, 0, 0, 0, 3, 94,
+01-17 13:15:05.257 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.260 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.276 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.276 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.299 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.299 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 3, 113, -1, -1, 0, 0, 4, 0, 0, 0, 2, -14,
+01-17 13:15:05.303 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.306 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.325 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.325 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.358 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.358 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -4, 99, -1, -1, 0, 0, 4, 0, 0, 0, 3, -35,
+01-17 13:15:05.361 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.363 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.377 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.377 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.403 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.404 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -9, 15, -1, -1, 0, 0, 4, 0, 0, 0, 3, -124,
+01-17 13:15:05.408 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.410 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.425 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.425 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.448 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.463 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -15, -67, -1, -1, 0, 0, 4, 0, 0, 0, 4, 44,
+01-17 13:15:05.467 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.470 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.476 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.476 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.508 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.509 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -22, -86, -1, -1, 0, 0, 4, 0, 0, 0, 4, 18,
+01-17 13:15:05.513 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.516 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.525 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.525 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.553 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.553 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -27, 102, -1, -1, 0, 0, 4, 0, 0, 0, 3, -55,
+01-17 13:15:05.557 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.559 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.575 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.575 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.598 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.599 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -32, 24, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:05.602 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.604 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.624 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.624 18637 18637 D BleService: Data: 6, 13, -78, -61, 112, 127, 2, 119,
+01-17 13:15:05.642 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.643 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -38, -56, -1, -1, 0, 0, 4, 0, 0, 0, 4, 32,
+01-17 13:15:05.644 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.647 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.654 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.654 18637 18637 D BleService: Data: 6, 13, -78, 78, 112, 127, 2, 2,
+01-17 13:15:05.688 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:05.688 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -43, 117, -1, -1, 0, 0, 4, 0, 0, 0, 3, -56,
+01-17 13:15:05.690 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.691 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.699 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.699 18637 18637 D BleService: Data: 6, 13, -79, 100, 112, 127, 2, 23,
+01-17 13:15:05.732 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.748 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -48, 35, -1, -1, 0, 0, 4, 0, 0, 0, 3, 113,
+01-17 13:15:05.750 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.751 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.754 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.754 18637 18637 D BleService: Data: 6, 13, -82, 36, 112, 127, 1, -44,
+01-17 13:15:05.778 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.778 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -54, -80, -1, -1, 0, 0, 4, 0, 0, 0, 3, -8,
+01-17 13:15:05.782 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.783 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.788 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.788 18637 18637 D BleService: Data: 6, 13, -85, -36, 112, 127, 2, -119,
+01-17 13:15:05.808 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.808 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -57, 39, -1, -1, 0, 0, 4, 0, 0, 0, 3, 108,
+01-17 13:15:05.809 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.811 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.821 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.821 18637 18637 D BleService: Data: 6, 13, -86, 14, 112, 127, 1, -70,
+01-17 13:15:05.852 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.853 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -63, -26, -1, -1, 0, 0, 4, 0, 0, 0, 4, 37,
+01-17 13:15:05.854 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.856 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.866 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.866 18637 18637 D BleService: Data: 6, 13, -90, -38, 112, 127, 2, -126,
+01-17 13:15:05.898 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.899 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -68, 94, -1, -1, 0, 0, 4, 0, 0, 0, 3, -104,
+01-17 13:15:05.901 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.902 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.910 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.910 18637 18637 D BleService: Data: 6, 13, -95, 89, 112, 127, 1, -4,
+01-17 13:15:05.942 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.943 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -74, -40, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:15:05.945 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.946 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.954 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.954 18637 18637 D BleService: Data: 6, 13, -98, -94, 112, 127, 2, 66,
+01-17 13:15:05.987 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:05.988 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -79, 71, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:05.989 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:05.991 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:05.999 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:05.999 18637 18637 D BleService: Data: 6, 13, -107, 120, 112, 127, 2, 15,
+01-17 13:15:06.018 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.033 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -83, 126, -1, -1, 0, 0, 4, 0, 0, 0, 3, -87,
+01-17 13:15:06.034 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.035 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.044 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.044 18637 18637 D BleService: Data: 6, 13, -111, 93, 112, 127, 1, -16,
+01-17 13:15:06.063 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.064 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -89, -74, -1, -1, 0, 0, 4, 0, 0, 0, 3, -37,
+01-17 13:15:06.067 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.069 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.076 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.076 18637 18637 D BleService: Data: 6, 13, -118, 102, 112, 127, 1, -14,
+01-17 13:15:06.107 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.108 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -95, -64, -1, -1, 0, 0, 4, 0, 0, 0, 3, -33,
+01-17 13:15:06.109 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.111 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.121 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.121 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.152 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.152 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -101, -106, -1, -1, 0, 0, 4, 0, 0, 0, 3, -81,
+01-17 13:15:06.154 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.155 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.165 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.165 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.197 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.197 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -107, 41, -1, -1, 0, 0, 4, 0, 0, 0, 3, 60,
+01-17 13:15:06.199 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.201 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.210 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.210 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.242 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.242 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -114, -128, -1, -1, 0, 0, 4, 0, 0, 0, 3, -116,
+01-17 13:15:06.244 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.246 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.254 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.254 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.273 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.273 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -119, -54, -1, -1, 0, 0, 4, 0, 0, 0, 3, -47,
+01-17 13:15:06.275 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.276 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.289 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.289 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.317 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.318 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -126, -4, -1, -1, 0, 0, 4, 0, 0, 0, 3, -4,
+01-17 13:15:06.319 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.321 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.332 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.332 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.362 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.363 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 123, -40, -1, -1, 0, 0, 4, 0, 0, 0, 3, -47,
+01-17 13:15:06.364 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.365 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.377 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.377 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.407 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.408 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 116, -115, -1, -1, 0, 0, 4, 0, 0, 0, 3, 127,
+01-17 13:15:06.409 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.411 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.422 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.422 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.452 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.453 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 109, 29, -1, -1, 0, 0, 4, 0, 0, 0, 3, 8,
+01-17 13:15:06.454 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.458 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.465 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.465 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.497 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.498 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 101, 106, -1, -1, 0, 0, 4, 0, 0, 0, 3, 77,
+01-17 13:15:06.499 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.500 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.510 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.510 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.542 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.543 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 93, -61, -1, -1, 0, 0, 4, 0, 0, 0, 3, -98,
+01-17 13:15:06.545 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.546 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.555 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.555 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.587 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.602 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 85, -5, -1, -1, 0, 0, 4, 0, 0, 0, 3, -50,
+01-17 13:15:06.604 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.606 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.609 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.609 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.632 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.633 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 78, 27, -1, -1, 0, 0, 4, 0, 0, 0, 2, -25,
+01-17 13:15:06.634 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.636 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.643 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.643 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.662 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.663 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 72, -45, -1, -1, 0, 0, 4, 0, 0, 0, 3, -103,
+01-17 13:15:06.664 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.666 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.676 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.676 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.707 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.708 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 64, -36, -1, -1, 0, 0, 4, 0, 0, 0, 3, -102,
+01-17 13:15:06.709 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.710 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.721 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.721 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.752 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.753 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 56, -44, -1, -1, 0, 0, 4, 0, 0, 0, 3, -118,
+01-17 13:15:06.755 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.756 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.765 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.765 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.797 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.798 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 48, -70, -1, -1, 0, 0, 4, 0, 0, 0, 3, 104,
+01-17 13:15:06.800 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.801 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.810 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.810 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.842 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.842 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 40, -112, -1, -1, 0, 0, 4, 0, 0, 0, 3, 54,
+01-17 13:15:06.844 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.845 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.854 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.854 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.873 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:06.888 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 35, 32, -1, -1, 0, 0, 4, 0, 0, 0, 2, -63,
+01-17 13:15:06.889 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.890 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.898 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.898 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.918 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.918 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 26, -21, -1, -1, 0, 0, 4, 0, 0, 0, 3, -125,
+01-17 13:15:06.919 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.921 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.931 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.932 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:06.962 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:06.963 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 18, -95, -1, -1, 0, 0, 4, 0, 0, 0, 3, 49,
+01-17 13:15:06.965 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:06.966 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:06.977 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:06.977 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.007 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.007 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 10, 85, -1, -1, 0, 0, 4, 0, 0, 0, 2, -35,
+01-17 13:15:07.009 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.011 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.021 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.021 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.052 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.053 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 2, 2, -1, -1, 0, 0, 4, 0, 0, 0, 2, -126,
+01-17 13:15:07.054 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.056 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.068 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.068 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.097 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.098 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -7, 118, -1, -1, 0, 0, 4, 0, 0, 0, 3, -19,
+01-17 13:15:07.100 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.101 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.111 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.111 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.142 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.143 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -15, 68, -1, -1, 0, 0, 4, 0, 0, 0, 3, -77,
+01-17 13:15:07.145 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.146 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.154 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.154 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.173 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.173 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -21, 124, -1, -1, 0, 0, 4, 0, 0, 0, 3, -27,
+01-17 13:15:07.175 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.177 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.187 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.187 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.218 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.218 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -29, 24, -1, -1, 0, 0, 4, 0, 0, 0, 3, 121,
+01-17 13:15:07.219 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.223 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.231 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.231 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.263 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.263 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -38, -83, -1, -1, 0, 0, 4, 0, 0, 0, 4, 5,
+01-17 13:15:07.266 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.267 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.276 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.276 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.307 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.308 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -46, 56, -1, -1, 0, 0, 4, 0, 0, 0, 3, -120,
+01-17 13:15:07.309 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.311 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.320 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.320 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.353 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.353 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -55, -73, -1, -1, 0, 0, 4, 0, 0, 0, 3, -2,
+01-17 13:15:07.356 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.357 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.367 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.367 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.398 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.398 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -63, 67, -1, -1, 0, 0, 4, 0, 0, 0, 3, -126,
+01-17 13:15:07.400 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.402 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.412 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.412 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.443 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.459 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -72, -56, -1, -1, 0, 0, 4, 0, 0, 0, 3, -2,
+01-17 13:15:07.461 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.463 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.466 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.466 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.488 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.488 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -80, 64, -1, -1, 0, 0, 4, 0, 0, 0, 3, 110,
+01-17 13:15:07.490 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.492 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.500 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.500 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.532 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.533 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -89, -56, -1, -1, 0, 0, 4, 0, 0, 0, 3, -19,
+01-17 13:15:07.535 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.536 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.544 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.544 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.578 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.578 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -97, 67, -1, -1, 0, 0, 4, 0, 0, 0, 3, 96,
+01-17 13:15:07.581 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.583 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.587 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.588 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.608 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.609 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -103, -108, -1, -1, 0, 0, 4, 0, 0, 0, 3, -85,
+01-17 13:15:07.612 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.613 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.621 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.621 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.653 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.653 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -111, 6, -1, -1, 0, 0, 4, 0, 0, 0, 3, 21,
+01-17 13:15:07.656 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.658 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.667 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.667 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.698 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.698 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -120, 122, -1, -1, 0, 0, 4, 0, 0, 0, 3, -128,
+01-17 13:15:07.701 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.703 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.711 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.711 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.743 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.744 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 127, -11, -1, -1, 0, 0, 4, 0, 0, 0, 3, -14,
+01-17 13:15:07.746 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.748 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.754 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.754 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.787 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.788 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 119, 103, -1, -1, 0, 0, 4, 0, 0, 0, 3, 92,
+01-17 13:15:07.789 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.791 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.799 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.799 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.819 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.819 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 113, -80, -1, -1, 0, 0, 4, 0, 0, 0, 3, -97,
+01-17 13:15:07.822 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.824 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.832 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.832 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.863 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.863 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 105, 41, -1, -1, 0, 0, 4, 0, 0, 0, 3, 16,
+01-17 13:15:07.865 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.867 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.879 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.879 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.908 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.909 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 96, -104, -1, -1, 0, 0, 4, 0, 0, 0, 3, 118,
+01-17 13:15:07.911 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.913 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.922 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.922 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.953 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:07.953 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 88, 7, -1, -1, 0, 0, 4, 0, 0, 0, 2, -35,
+01-17 13:15:07.956 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:07.958 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:07.967 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:07.967 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:07.998 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:07.998 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 79, 67, -1, -1, 0, 0, 4, 0, 0, 0, 3, 16,
+01-17 13:15:08.001 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.002 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.011 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.011 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.043 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.043 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 70, -77, -1, -1, 0, 0, 4, 0, 0, 0, 3, 119,
+01-17 13:15:08.046 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.049 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.054 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.054 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.088 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.091 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 62, 34, -1, -1, 0, 0, 4, 0, 0, 0, 2, -34,
+01-17 13:15:08.093 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.095 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.100 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.100 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.133 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.133 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 53, -119, -1, -1, 0, 0, 4, 0, 0, 0, 3, 60,
+01-17 13:15:08.135 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.137 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.143 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.143 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.163 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.163 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 47, -45, -1, -1, 0, 0, 4, 0, 0, 0, 3, -128,
+01-17 13:15:08.165 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.166 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.177 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.177 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.208 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.208 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 39, 65, -1, -1, 0, 0, 4, 0, 0, 0, 2, -26,
+01-17 13:15:08.211 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.213 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.220 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.221 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.253 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.253 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 30, -76, -1, -1, 0, 0, 4, 0, 0, 0, 3, 80,
+01-17 13:15:08.255 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.257 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.266 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.267 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.298 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.313 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 22, 27, -1, -1, 0, 0, 4, 0, 0, 0, 2, -81,
+01-17 13:15:08.315 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.316 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.323 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.323 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.342 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.343 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 13, 124, -1, -1, 0, 0, 4, 0, 0, 0, 3, 7,
+01-17 13:15:08.345 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.347 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.354 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.354 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.373 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.373 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, 7, -56, -1, -1, 0, 0, 4, 0, 0, 0, 3, 77,
+01-17 13:15:08.375 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.377 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.387 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.387 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.417 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.418 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -1, 51, -1, -1, 0, 0, 4, 0, 0, 0, 3, -80,
+01-17 13:15:08.418 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.419 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.431 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.431 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.463 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.463 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -10, -104, -1, -1, 0, 0, 4, 0, 0, 0, 4, 12,
+01-17 13:15:08.464 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.466 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.478 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.478 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.508 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.508 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -18, 4, -1, -1, 0, 0, 4, 0, 0, 0, 3, 112,
+01-17 13:15:08.511 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.512 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.522 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.522 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.553 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.554 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -27, 112, -1, -1, 0, 0, 4, 0, 0, 0, 3, -45,
+01-17 13:15:08.556 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.557 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.564 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.564 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.598 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.598 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -36, -38, -1, -1, 0, 0, 4, 0, 0, 0, 4, 52,
+01-17 13:15:08.600 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.602 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.610 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.610 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.643 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.643 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -44, 60, -1, -1, 0, 0, 4, 0, 0, 0, 3, -114,
+01-17 13:15:08.645 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.647 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.655 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.655 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.687 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.689 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -53, -93, -1, -1, 0, 0, 4, 0, 0, 0, 3, -20,
+01-17 13:15:08.692 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.693 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.698 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.698 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.717 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.719 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -59, -25, -1, -1, 0, 0, 4, 0, 0, 0, 4, 42,
+01-17 13:15:08.722 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.723 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.732 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.732 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.763 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.763 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -67, 84, -1, -1, 0, 0, 4, 0, 0, 0, 3, -113,
+01-17 13:15:08.765 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.767 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.777 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.777 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.807 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.808 18637 18654 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -76, -70, -1, -1, 0, 0, 4, 0, 0, 0, 3, -20,
+01-17 13:15:08.811 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.812 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.820 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.820 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.853 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.853 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -84, 30, -1, -1, 0, 0, 4, 0, 0, 0, 3, 72,
+01-17 13:15:08.856 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.857 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.864 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.864 18637 18637 D BleService: Data: 6, 13, -125, 0, 112, 127, 1, -123,
+01-17 13:15:08.897 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.898 18637 18655 D BleService: cevap: Data: 2, 14, 100, 0, 0, 0, 0, 8, -93, 87, -1, -1, 0, 0, 4, 0, 0, 0, 3, 120,
+01-17 13:15:08.899 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.903 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE
+01-17 13:15:08.910 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.910 18637 18637 D BleService: Data: 6, 13, 0, 0, 112, 127, 1, 2,
+01-17 13:15:08.943 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:08.943 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -11, -1, -1, 0, 0, 4, 0, 0, 0, 3, -1,
+01-17 13:15:08.947 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.949 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:08.954 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.954 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:08.973 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:08.974 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:08.976 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:08.979 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:08.987 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:08.987 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.019 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.019 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.022 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.024 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.033 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.033 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.063 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.064 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.066 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.068 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.078 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.078 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.109 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.109 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.113 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.114 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.122 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.122 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.153 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.168 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.172 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.173 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.188 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.188 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.214 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.217 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.218 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.219 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.229 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.229 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.258 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.258 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.260 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.263 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.270 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.270 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.303 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.303 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.305 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.307 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.321 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.321 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.349 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.349 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.350 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.354 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.370 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.370 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.393 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.393 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.395 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.397 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.403 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.403 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.423 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.423 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.426 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.427 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.438 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.438 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.468 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.468 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.471 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.473 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.489 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.489 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.513 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.513 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.516 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.517 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.522 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.522 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.543 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.544 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.546 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.547 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.555 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.556 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.588 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.588 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.593 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.595 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.603 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.603 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.633 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.633 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.636 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.637 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.654 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.654 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.678 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.678 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.682 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.683 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.686 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.686 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.708 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.708 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.711 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.713 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.721 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.721 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.753 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.753 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.756 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.758 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.772 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.772 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.798 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.798 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.800 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.802 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.822 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.822 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.858 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.858 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.860 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.861 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.871 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.871 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.903 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:09.904 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.906 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.907 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.919 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.919 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.948 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.948 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.951 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.952 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:09.971 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:09.971 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:09.993 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:09.993 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:09.997 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:09.998 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.003 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.003 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.023 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.024 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.026 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.027 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.038 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.038 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.068 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.069 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.072 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.074 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.088 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.088 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.113 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.113 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.115 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.117 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.121 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.121 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.143 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.144 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.146 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.148 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.153 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.153 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.173 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.174 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.176 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.178 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.187 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.187 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.218 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.218 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.220 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.222 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.238 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.238 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.263 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.264 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.267 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.269 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.286 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.286 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.308 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.308 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.311 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.313 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.320 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.320 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.353 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.354 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.360 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.362 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.373 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.373 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.398 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.399 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.403 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.405 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.423 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.423 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.443 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.443 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.446 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.448 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.455 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.455 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.488 18637 18655 D BleService: On Characteristic Write 0
+01-17 13:15:10.489 18637 18655 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.493 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.495 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.505 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.505 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.532 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.533 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.537 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.539 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.556 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.556 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.579 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.593 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.596 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.598 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.605 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.605 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.639 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.640 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.643 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.645 18637 18637 D BLUETOOTH: Process Command: STATUS
+01-17 13:15:10.656 18637 18637 D BleService: Command success type: WRITE_CHARACTERISTIC
+01-17 13:15:10.656 18637 18637 D BleService: Data: 2, 15, 0, 17,
+01-17 13:15:10.683 18637 18654 D BleService: On Characteristic Write 0
+01-17 13:15:10.684 18637 18654 D BleService: cevap: Data: 2, 0, 100, 0, 0, 0, 0, 8, -102, -116, -1, -1, 0, 0, 4, 0, 0, 0, 3, -106,
+01-17 13:15:10.688 18637 18637 D BLUETOOTH: Notification Recieved
+01-17 13:15:10.690 18637 18637 D BLUETOOTH: Process Command: STATUS
+
