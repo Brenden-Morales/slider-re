@@ -1,11 +1,5 @@
 # Reverse engineering the [edelkrone SliderOne v2](https://edelkrone.com/products/sliderone-v2)
 
-### Table of contents
-* [Why do this?](Why-Do-This?)
-* [Scope](Scope)
-* [Current Findings](Current-Findings)
-* [Next Steps?](Next-Steps)
-
 ## Why do this?
 The edelkrone "SliderOne v2" is a consumer-grade camera slider that uses BlueTooth. For many applications the 
 app from the developer is sufficient. However for macro photography and [focus stacking](https://en.wikipedia.org/wiki/Focus_stacking)
@@ -159,34 +153,6 @@ Event 169
 log 1: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:1e:9f:70:7f:01:bf
 log 2: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:00:00:70:7f:01:02
 log 3: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:af:f5:70:7f:02:a6
-```
-
-
-
-
-
-
-
-```
-Event 66
-log 1: source:SldrOne	dest:Pixel 5	opcode:0x0000001b	value:02:00:64:00:00:00:00:08:c5:d7:ff:ff:00:00:04:00:00:00:04:0c
-log 2: source:SldrOne	dest:Pixel 5	opcode:0x0000001b	value:02:00:64:00:00:00:00:08:c5:d5:ff:ff:00:00:04:00:00:00:04:0a
-log 3: source:SldrOne	dest:Pixel 5	opcode:0x0000001b	value:02:00:64:00:00:00:00:08:c5:d4:ff:ff:00:00:04:00:00:00:04:09
-```
-***
-this maaaybe looks like the beginning of one of the `01-17 13:14:59.392 18637 18637 D BLUETOOTH: Process Command: MANUAL_SLIDE`
-```
-Event 124
-log 1: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:02:0f:00:11
-log 2: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:00:00:70:7f:01:02
-log 3: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:02:0f:00:11
-```
-***
-Because later _all_ the values diverge like so:
-```
-log 1: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:0b:6d:70:7f:01:7a
-log 2: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:db:e5:70:7f:02:c2
-log 3: source:Pixel 5	dest:SldrOne	opcode:0x00000012	value:06:0d:9b:74:70:7f:02:11
 ```
 
 ## Next Steps?
